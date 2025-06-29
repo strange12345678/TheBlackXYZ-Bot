@@ -22,8 +22,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'TheBlackBot')
-API_ID = int(environ.get('API_ID', '29450452'))
-API_HASH = environ.get('API_HASH', '54759945ff88b52777eec9a455944d31')
+API_ID = int(environ.get('API_ID', '22582906'))
+API_HASH = environ.get('API_HASH', 'e3096dde3e27c72a50e0e53d8ab23d6a')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002818582863'))
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5282274756').split()]
@@ -50,7 +50,7 @@ FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '-100
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 
 # MongoDB information database 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://TheBlackXYZBotMovies:TheBlackXYZBotMovies@cluster0.nu4uqj6.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://mahatobibek221034:FA1aFnrrZJH1j65U@cluster0.qalogrz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'blackcollection')
 
@@ -61,20 +61,20 @@ RENAME_MODE = bool(environ.get('RENAME_MODE', True)) # Set True or False
 RemoveBG_API = environ.get("RemoveBG_API", "f7stCpqeKmuDeHMX66qH5V8D")
 
 # Channel Links 💸
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/TheBlackXYZ_Movie_Group')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/TheBlackXYZ')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/TheBlackXYZ/155')
-VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/TheBlackXYZ/155')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'The_Black_XYZ_SupportChat') # Support Chat Links Without https:// or @
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Move_Download')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/UniformMovies')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/UniformHelp/1')
+VERIFY_TUTORIAL = environ.get('VERIFY_TUTORIAL', 'https://t.me/UniformHelp/155')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'UniformHelp') # Support Chat Links Without https:// or @
 
 # Shortlink Info
 SHORTLINK_MODE = bool(environ.get('SHORTLINK_MODE', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'api.yamlinks.com')
-SHORTLINK_API = environ.get('SHORTLINK_API', '8ba797ded52d10834ad44fc07bf9c659a67167d4')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'linkcents.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'e78e5f774a9dede8f6b3d155a1fea041a35bb720')
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
 CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
-CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "mongodb+srv://TheBlackXYZ24:TheBlackXYZ24@cluster0.cqt915d.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # Necessary If clone mode is true
+CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "mongodb+srv://mahatobibek221034:FA1aFnrrZJH1j65U@cluster0.qalogrz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # Necessary If clone mode is true
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '-1002769886785') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Auto Approve Info : If True Then Bot Approve New Upcoming Join Request Else Not
@@ -83,7 +83,7 @@ REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', True)) # Set Tru
 TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', True)) # Set True Or False (This try again button is only for request to join fsub not for normal fsub
 
 # Clone Information : If Clone Mode Is True Then Bot Clone Other Bots.
-CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
+CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ and Bot Is Admin In Your Channel.
 CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "mongodb+srv://TheBlackXYZ06:TheBlackXYZ06@cluster0.ir3gpvr.mongodb.net/?retryWrites=true&w=majority") # Necessary If clone mode is true
 
